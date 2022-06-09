@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-smoothing: 'antialiased';
+    -webkit-font-smoothing: 'antialiased';
+}
+
+html, body {
+    width: 100%;
+    min-height: 100vh;
+    background-color: rgb(13, 27, 35);
+    color: #fff;
+}
+
+#goToCartBtn {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    font-size: 2rem;
+}
+
+#cart {
+    position: absolute;
+    top: 6rem;
+    right: 1rem;
+    width: 7rem;
+    min-height: 30vh;
+    background-color: rgb(10 35 49);
+    box-shadow: 0 0 15px 5px #000000;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    z-index: 100;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    min-height: 85vh;
+    width: 80%;
+
+    background-color: rgb(9, 20, 26);
+    box-shadow: 0 0 15px 5px #04090c;
+}
+
+.container>div {
+    width: 100%
+}
+
+.container>div>section {
+    display: flex;
+    padding: 0.1rem;
+}
+
+.container>div>section>div {
+    width: 100%;
+    background-color: rgb(9, 20, 26);
+    box-shadow: 0 0 15px 5px #04090c;
+    padding: 0.8rem;
+    margin: 0.9rem;
+    text-align: justify;
+}
+
+.mainItemContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mainItemContainer button {
+    text-align: right;
+    margin-right: 2rem;
+}
+
+.mainItemContainer .detailContainer {
+    margin: 0.7rem;
+}
+
+.mainItemContainer .detailContainer p {
+    margin-top: 0.7rem;
+}
